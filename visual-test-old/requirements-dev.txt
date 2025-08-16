@@ -1,0 +1,11 @@
+# Linting
+flake8>=6.1.0
+
+# Auto-formatting
+black>=24.4.0
+
+# Import sorter
+isort>=5.13.2
+
+# Pre-commit hook support
+pre-commit>=3.7.0

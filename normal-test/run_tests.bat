@@ -1,0 +1,9 @@
+@echo off
+echo 🔄 Installing requirements...
+pip install -r requirements.txt
+
+echo 🧪 Running visual regression tests...
+pytest tests/ --html=test-report.html --self-contained-html
+
+echo 📂 Opening test report...
+start test-report.html
